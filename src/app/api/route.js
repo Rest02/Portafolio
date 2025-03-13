@@ -1,13 +1,13 @@
-import { prisma } from "@/libs/prisma";
-import { NextResponse } from "next/server";
+// import { prisma } from "@/libs/prisma";
+// import { NextResponse } from "next/server";
 
 
 
-export async function GET(){
+// export async function GET(){
 
 
-    const proyectos = await prisma.project.findMany()
-    console.log(proyectos)
+//     const proyectos = await prisma.project.findMany()
+//     console.log(proyectos)
 
-    return NextResponse.json(proyectos)
-}
+//     return NextResponse.json(proyectos)
+// }
