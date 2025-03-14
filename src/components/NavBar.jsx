@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <nav>
       <div className="container mx-auto flex justify-between items-center py-6">
-        <ul className="flex flex-1 items-center gap-x-4 text-lg font-bold">
+        <ul className="flex flex-1 items-center gap-x-4 text-lg font-mono">
           {/* Portafolio (a la izquierda) */}
           <li className="mr-auto">
             <Link href="/" className="text-black hover:text-indigo-700">Portafolio</Link>
