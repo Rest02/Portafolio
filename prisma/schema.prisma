@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -14,7 +11,7 @@ model Project {
   id          String   @id @default(cuid())
   title       String
   description String
-  imageUrl    String?
+  imageUrl    String?  // Puedes almacenar el nombre de la imagen (por ejemplo: "project-image.jpg")
   repoUrl     String?
   demoUrl     String?
   createdAt   DateTime @default(now())
@@ -27,4 +24,12 @@ model Experience {
   startDate   DateTime
   endDate     DateTime?
   description String
+  image       String? // Puedes almacenar el nombre de la imagen (por ejemplo: "experience-image.jpg")
+}
+
+model Certification {
+  id          String   @id @default(uuid())
+  title       String
+  description String
+  image       String?  // Puedes almacenar el nombre de la imagen (por ejemplo: "certification-image.jpg")
 }
