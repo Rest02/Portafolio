@@ -21,8 +21,8 @@ function HomePage() {
             FullStack Developer
           </h1>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl">
-            Hola, bienvenido a mi Portafolio. Puedes ver los proyectos que he
-            realizado y ponerte en contacto conmigo para más información.
+            Bienvenido a mi Portafolio. Puedes ver los proyectos que he
+            realizado, información sobre mi carrera profesional y ponerte en contacto conmigo para más información.
           </p>
           <div className="flex gap-4 w-1/2 ">
             <Link
@@ -32,7 +32,7 @@ function HomePage() {
               Contacto
             </Link>
             <a
-              href="/Matías Rodríguez_CV_2025.pdf"
+              href="/MATÍAS_RODRÍGUEZ_CV_2025_AM.pdf"
               target="_blank"
               className="bg-gray-800 text-white py-3 px-6 rounded-4xl w-[50%]  text-center font-semibold hover:bg-gray-700 hover:cursor-pointer transition duration-300"
             >

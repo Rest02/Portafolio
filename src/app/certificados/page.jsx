@@ -31,14 +31,14 @@ export default async function CertificatesPage() {
                 className="object-cover transition-transform duration-500"
               />
               <span className="absolute top-3 left-3 z-20 bg-black text-white text-xs font-medium px-2.5 py-0.5 rounded-full">
-                Certificate
+                Certificado
               </span>
             </div>
 
             <div className="p-5">
               <div className="flex items-center gap-2 mb-1">
                 <Award className="h-4 w-4 text-black-600" />
-                <span className="text-xs text-gray-500">Certification</span>
+                <span className="text-xs text-gray-500">Certificación</span>
               </div>
               <h3 className="font-semibold text-lg line-clamp-2 mb-2">{certificate.title}</h3>
 
