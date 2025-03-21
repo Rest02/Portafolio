@@ -11,14 +11,14 @@ model Project {
   id          String   @id @default(cuid())
   title       String
   description String
-  imageUrl    String?  // Puedes almacenar el nombre de la imagen (por ejemplo: "project-image.jpg")
+  imageUrl    String? // Puedes almacenar el nombre de la imagen (por ejemplo: "project-image.jpg")
   repoUrl     String?
   demoUrl     String?
   createdAt   DateTime @default(now())
 }
 
 model Experience {
-  id          String  @id @default(cuid())
+  id          String    @id @default(cuid())
   company     String
   position    String
   startDate   DateTime
@@ -28,8 +28,9 @@ model Experience {
 }
 
 model Certification {
-  id          String   @id @default(uuid())
-  title       String
-  description String
-  image       String?  // Puedes almacenar el nombre de la imagen (por ejemplo: "certification-image.jpg")
+  id             String  @id @default(uuid())
+  title          String
+  description    String
+  image          String? // Puedes almacenar el nombre de la imagen (por ejemplo: "certification-image.jpg")
+  urlCertificate String? // Puedes almacenar el nombre de la imagen (por ejemplo: "project-image.jpg")
 }
