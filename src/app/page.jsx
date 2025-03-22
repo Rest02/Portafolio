@@ -24,8 +24,7 @@ function HomePage() {
             FullStack Developer
           </h1>
           <p className="text-base md:text-lg text-gray-600 mb-6 md:mb-8 max-w-2xl">
-            Bienvenido a mi Portafolio! Puedes ver los proyectos que he realizado, contenido sobre mi carrera
-            profesional y ponerte en contacto conmigo para más información.
+          ¡Bienvenido a mi portafolio! Aquí puedes ver los proyectos que he realizado, conocer más sobre mi carrera profesional y ponerte en contacto conmigo para más información.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
             <Link
