@@ -23,13 +23,13 @@ function NavBar() {
           </li>
 
           {/* Botón de hamburguesa - visible solo en móvil */}
-          <button onClick={toggleMenu} className="md:hidden z-20 pr-1" aria-label="Toggle menu">
+          <button onClick={toggleMenu} className="md:hidden z-50 pr-1" aria-label="Toggle menu">
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
 
           {/* Menú móvil */}
           <div
-            className={`fixed inset-0 bg-white z-10 flex flex-col items-center justify-center md:hidden ${isMenuOpen ? "block" : "hidden"}`}
+            className={`fixed inset-0 bg-white z-40 flex flex-col items-center justify-center md:hidden ${isMenuOpen ? "block" : "hidden"}`}
           >
             <ul className="flex flex-col space-y-8 text-center">
               <li>
