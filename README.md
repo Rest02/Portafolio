@@ -47,7 +47,7 @@ Bienvenido a mi portafolio de desarrollo web, creado con **Next.js** y otras tec
 6. Acceder desde el navegador: `http://localhost:3000`
 
 ## 📬 Contacto
-Si deseas ponerte en contacto conmigo, puedes escribirme a mi correo o encontrarme en [LinkedIn](https://www.linkedin.com/in/tu-perfil/).
+Si deseas ponerte en contacto conmigo, puedes escribirme a mi correo o encontrarme en [LinkedIn](https://www.linkedin.com/in/mat%C3%ADas-rodr%C3%ADguez-11294423a/).
 
 ---
 ¡Gracias por visitar mi portafolio! 😊
