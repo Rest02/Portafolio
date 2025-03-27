@@ -5,6 +5,9 @@ export const metadata = {
   title: "Matías Rodríguez WEB",
 };
 
+export const dynamic = "force-dynamic";  // Asegúrate de usar 'force-dynamic' correctamente
+
+
 function HomePage() {
   return (
     <div className="flex items-center justify-center min-h-[calc(100vh-7rem)] p-4 md:p-6">
